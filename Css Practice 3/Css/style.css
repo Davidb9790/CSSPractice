@@ -1,0 +1,36 @@
+/*.container{
+	width: 100vw;
+	height: 100vh;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	transition-duration: 2s;
+	transition-property: width;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+body{
+	margin: 100px;
+}
+.box{
+	width: 300px;
+	height: 300px;
+	background: #3dCCC7;
+	transition-duration: 1000ms; 
+	/*create in milliseconds as standard, short durations are key*/
+	transition-property: all;
+	/*only adds animation to property named
+	you can choose all via Transition-Property:all;
+	NOT RECOMMENDED
+	DO:
+	Transition-property:background,transform;(Only pays attention to those two properties)
+	*/
+	transition-timing-function: cubic-bezier(0.43, 0, 0.58, 1);
+	transition-delay: 20ms;
+}
+.box:hover{
+	background: #FF6B6B;
+	transform: rotate(45deg);
+}

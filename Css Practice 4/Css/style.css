@@ -1,0 +1,33 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	transition-duration: 2s;
+	transition-property: width;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container:hover .box {
+	width: 600px;
+}
+.one{
+	background: #ffff00;
+	transition-timing-function:linear;
+}
+.two{
+	background: #ffff00;
+	transition-timing-function:ease-in;
+}
+.three{
+	background: #0000cc;
+	transition-timing-function:ease-out;
+}
+.four{
+	background: #cc0000;
+	transition-timing-function:ease-in-out;
+}
