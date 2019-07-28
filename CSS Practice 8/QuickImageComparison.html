@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quick Image Comparison</title>
+	<link rel="stylesheet" type="text/css" href="./Css/Reset.css">
+	<link rel="stylesheet" type="text/css" href="./Css/style.css">
+</head>
+<body>
+	<!-- <div wrapper id></div> -->
+	<section>
+		<div id="layer"></div>
+	</section>
+	
+	<script type="text/javascript">
+		var slide = document.getElementById('layer');
+		window.onmousemove = function (e) {
+			var x = e.clientX;
+			slide.style.left = x + 'px';
+		}
+	</script>
+</body>
+</html>
+
