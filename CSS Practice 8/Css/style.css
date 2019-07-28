@@ -10,9 +10,10 @@ section{
 	background: url(../Css/Assets/Skyline.jpg) no-repeat center center;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
 	/*position: center;*/
-	display: flex;
-	justify-content: center;
+/*	display: flex;
+	justify-content: center;*/
 }
 #layer{
 	position: absolute;
@@ -24,9 +25,10 @@ section{
 	border-left: 2px solid #000;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
+	background-size: cover;
 	/*position: center;*/
-	display: flex;
-	justify-content: center;
+	/*	display: flex;
+	justify-content: center;*/
 
 }
 
