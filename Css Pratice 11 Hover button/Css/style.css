@@ -22,6 +22,16 @@ body{
 	cursor: pointer;
 	font-size: 16px;
 	position: relative;
+	margin:5px;
+}
+.btn2{
+	color: #DAF7A6;
+}
+.btn3{
+	color: green;
+}
+.btn4{
+	color: #C70039;
 }
 .btn1::before,.btn1::after{
 	content: "";
